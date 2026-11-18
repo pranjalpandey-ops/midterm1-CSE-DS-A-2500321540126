@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1 {
+    background-color: midnightblue;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    background-color: white;
+    width: 85%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: teal;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+tr:nth-child(even) {
+    background-color: lightcyan;
+}
+
+.delete {
+    background-color: crimson;
+}
+
+.edit {
+    background-color: mediumseagreen;
+}
